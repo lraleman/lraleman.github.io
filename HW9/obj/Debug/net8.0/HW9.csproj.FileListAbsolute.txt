@@ -32,3 +32,6 @@ C:\Users\ousoo\OneDrive\MIS3033_VS\HW9\HW9\HW9\obj\Debug\net8.0\refint\HW9.dll
 C:\Users\ousoo\OneDrive\MIS3033_VS\HW9\HW9\HW9\obj\Debug\net8.0\HW9.pdb
 C:\Users\ousoo\OneDrive\MIS3033_VS\HW9\HW9\HW9\obj\Debug\net8.0\HW9.genruntimeconfig.cache
 C:\Users\ousoo\OneDrive\MIS3033_VS\HW9\HW9\HW9\obj\Debug\net8.0\ref\HW9.dll
+C:\Users\ousoo\OneDrive\MIS3033_VS\HW9 (Personal Website)\lraleman.github.io\HW9\obj\Debug\net8.0\HW9.dll
+C:\Users\ousoo\OneDrive\MIS3033_VS\HW9 (Personal Website)\lraleman.github.io\HW9\obj\Debug\net8.0\refint\HW9.dll
+C:\Users\ousoo\OneDrive\MIS3033_VS\HW9 (Personal Website)\lraleman.github.io\HW9\obj\Debug\net8.0\HW9.pdb
