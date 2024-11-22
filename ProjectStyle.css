@@ -1,0 +1,85 @@
+﻿/* ProjectStyle.css */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding-top: 4rem; /* Add top padding to prevent overlap */
+    text-align: center; /* Center all text in the body */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within the container */
+}
+
+h1, h2, h3 {
+    color: seagreen;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Ensure list items are centered */
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.profile-info, .education, .experience {
+    margin-top: 1rem;
+}
+
+    .profile-info p, .education p, .experience p {
+        margin-bottom: 0.5rem;
+    }
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar-custom {
+    background-color: seagreen; /* Custom background color */
+    padding: 0.5rem 1rem; /* Adjust padding for smaller size */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+    border-bottom: 3px solid #ddd; /* Thicker bottom border */
+}
+
+    .navbar-custom .navbar-brand {
+        color: black; /* Custom text color for Home */
+        font-size: 1.5rem; /* Larger font size for Home */
+    }
+
+    .navbar-custom .nav-link {
+        color: black; /* Custom text color for other links */
+        font-size: 1rem; /* Smaller font size for other links */
+        margin: 0 0.5rem; /* Add some spacing between links */
+    }
+
+        .navbar-custom .navbar-brand:hover, .navbar-custom .nav-link:hover {
+            color: #d1d1d1; /* Hover color for all links */
+        }
+
+    .navbar-custom .navbar-toggler {
+        border-color: #fff; /* Custom border color for toggler */
+        color: #fff; /* Toggler icon color */
+    }
+
+.footer {
+    background-color: transparent; /* Make footer background transparent */
+    padding: 20px 0; /* Add some padding for better spacing */
+    text-align: center;
+}

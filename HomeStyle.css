@@ -1,0 +1,91 @@
+﻿/* HomeStyle.css */
+
+body {
+    background-color: whitesmoke;
+}
+
+.profImg {
+    max-width: 400px;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: seagreen;
+    border-style: solid;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.big-header {
+    color: seagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 64px;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(7, 53, 8);
+}
+
+.purpose-box {
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: seagreen;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: mintcream;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn-custom {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: mintcream;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    .btn-custom:hover {
+        background-color: #e2e6ea;
+        border-color: #ccc;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+.navbar-custom {
+    background-color: seagreen; /* Custom background color */
+    padding: 0.5rem 1rem; /* Adjust padding for smaller size */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    .navbar-custom .navbar-brand {
+        color: black; /* Custom text color for Home */
+        font-size: 1.5rem; /* Larger font size for Home */
+    }
+
+    .navbar-custom .nav-link {
+        color: black; /* Custom text color for other links */
+        font-size: 1rem; /* Smaller font size for other links */
+        margin: 0 0.5rem; /* Add some spacing between links */
+    }
+
+        .navbar-custom .navbar-brand:hover, .navbar-custom .nav-link:hover {
+            color: #d1d1d1; /* Hover color for all links */
+        }
+
+    .navbar-custom .navbar-toggler {
+        border-color: #fff; /* Custom border color for toggler */
+        color: #fff; /* Toggler icon color */
+    }
